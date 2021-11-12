@@ -6,8 +6,21 @@
   /* tablets */
 }
 
-@media screen and (min-width: 1025px) {
-  /* laptops and above */
+@media screen and (min-width: 1050px) {
+  .merch-tour {
+    .item {
+      width: 500px;
+      height: 380px;
+      margin: 1%;
+      background-color: green;
+      position: relative;
+    }
+    img {
+      object-fit: cover;
+      width: 500px;
+      height: 380px;
+    }
+  }
 }
 
 /* NAVBAR MEDIA QUERIES */
