@@ -47,15 +47,26 @@
 .title-phrase .phrase {
   font-size: 2rem;
 }
-.title img {
+.title-section {
+  position: relative;
+}
+.title-section img {
   width: 100%;
   height: 100%;
+  top: 0;
+  left: 0;
   object-fit: cover;
-  position: absolute;
 }
-.title-text {
-  z-index: 2;
+.section-text {
   position: absolute;
   color: white;
-  margin: 50% 10% 10%;
+  margin: 10% 10%;
+  top: 50%;
+}
+.section-text h3 {
+  font-size: 3rem;
+}
+.section-text h4 {
+  font-weight: lighter;
+  top: 100%;
 }
