@@ -137,16 +137,18 @@ body {
   }
 }
 .footer {
-  background-color: gray;
-  padding: 5%;
+  background-color: rgb(46, 43, 43);
+  padding: 3%;
   svg {
-    height: 50px;
+    height: 30px;
     color: white;
-    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
   }
   a {
     text-decoration: none;
     color: white;
     display: block;
+    font-size: 0.8rem;
   }
 }
