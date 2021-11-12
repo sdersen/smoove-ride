@@ -1,0 +1,24 @@
+{
+  "name": "smoove-ride",
+  "version": "1.0.0",
+  "description": "# Such cool idea, very nice _Borat voice_",
+  "main": "app.js",
+  "scripts": {
+    "build": "sass Style/SCSS:Style/CSS",
+    "watch": "sass --watch  --no-source-map Style/SCSS:Style/CSS",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdersen/smoove-ride.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdersen/smoove-ride/issues"
+  },
+  "homepage": "https://github.com/sdersen/smoove-ride#readme",
+  "devDependencies": {
+    "sass": "^1.43.4"
+  }
+}
