@@ -6,7 +6,7 @@
   /* tablets */
 }
 
-@media (min-width: 1025px) {
+@media screen and (min-width: 1025px) {
   /* laptops and above */
 }
 
