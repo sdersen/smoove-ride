@@ -32,9 +32,13 @@ body {
 
 .hero-section {
   height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2940&q=80");
-  background-size: cover;
   display: block;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .title-phrase {
@@ -55,43 +59,46 @@ body {
 }
 .title-section {
   position: relative;
+  margin: 0px;
 
   img {
-    height: 700px;
+    height: 100vh;
     width: 100%;
     object-fit: cover;
     top: 0;
     left: 0;
+    display: block; //USED TO REMOVE BOTTOM MARGIN, THANKS THEO!
   }
 }
 .section-text {
   position: absolute;
   color: white;
-  margin: 10% 10%;
+  margin: 10% 5%;
   top: 30%;
 
   h3 {
     font-size: 3rem;
   }
   h4 {
+    margin-top: 35vh;
     font-weight: lighter;
   }
 }
-.tec-description {
+.tech-section {
   position: relative;
 
   img {
-    height: 700px;
+    height: 40vh;
     width: 100%;
     object-fit: cover;
     top: 0;
     left: 0;
   }
 }
-.tec-text {
+.tech-text {
   position: absolute;
-  color: rgb(139, 59, 59);
-  margin: 10% 10%;
+  color: white;
+  margin: 10% 5%;
   top: 30%;
 
   h3 {
@@ -101,5 +108,3 @@ body {
     font-weight: lighter;
   }
 }
-
-
