@@ -15,19 +15,17 @@
   .nav-links {
     display: flex;
     justify-content: space-around;
-    // overflow-x: hidden;
-    // width: 50%;
   }
 }
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
   }
+
   .nav-links {
     position: absolute;
     right: 0px;
-    height: 92vh;
-    top: 8vh;
+    top: 5vh;
     background-color: black;
     display: flex;
     flex-direction: column;
