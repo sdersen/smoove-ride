@@ -32,14 +32,18 @@
   display: block;
 }
 
-.hero-section h1 {
+.title-phrase {
   display: block;
-  margin-left: 50px;
-  align-items: center;
-  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 5%;
 }
 
-.hero-section h3 {
-  display: block;
-  align-items: center;
+.title-phrase .title {
+  margin-bottom: 25px;
+  font-size: 4rem;
+}
+
+.title-phrase .phrase {
+  font-size: 2rem;
 }
