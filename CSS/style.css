@@ -16,12 +16,30 @@
 
 .progress-container {
   width: 100%;
-  height: 8px;
+  height: 4px;
   background: #ccc;
 }
 
 .progress-bar {
-  height: 8px;
-  background: #04aa6d;
+  height: 4px;
+  background: #f38b46;
   width: 0%;
+}
+
+.hero-section {
+  height: 100vh;
+  background-color: gray;
+  display: block;
+}
+
+.hero-section h1 {
+  display: block;
+  margin-left: 50px;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.hero-section h3 {
+  display: block;
+  align-items: center;
 }
