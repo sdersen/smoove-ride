@@ -151,6 +151,26 @@ body {
     }
   }
 }
+.merch-tour {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  //height: 50vh;
+  // width: 100vw;
+
+  .item {
+    width: 285px;
+    height: 380px;
+    margin: 1%;
+    background-color: green;
+  }
+  img{
+    object-fit: cover;
+    width: 285px;
+    height: 380px;
+  }
+}
 .footer {
   background-color: rgb(46, 43, 43);
   padding: 3%;
