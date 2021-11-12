@@ -6,6 +6,10 @@
   font-family: "Sora", sans-serif;
 }
 
+body {
+  overflow: hidden;
+}
+
 .scroll-header {
   position: fixed;
   top: 0;
