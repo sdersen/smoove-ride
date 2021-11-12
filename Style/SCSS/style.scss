@@ -42,8 +42,8 @@ body {
 
   .logo {
     position: absolute;
-    top: 16px;
-    left: 32px;
+    top: 7%;
+    left: 5%;
   }
 }
 
@@ -67,7 +67,7 @@ body {
   position: relative;
   margin: 0px;
 
-  img {
+  .background {
     height: 100vh;
     width: 100%;
     object-fit: cover;
@@ -86,14 +86,15 @@ body {
     font-size: 3rem;
   }
   h4 {
-    margin-top: 35vh;
+    margin-top: 25vh;
     font-weight: lighter;
   }
 }
 .tech-section {
   position: relative;
+  margin: 0;
 
-  img {
+  .background {
     height: 40vh;
     width: 100%;
     object-fit: cover;
@@ -101,17 +102,18 @@ body {
     left: 0;
     display: block;
   }
-}
-.tech-text {
-  position: absolute;
-  color: white;
-  margin: 10% 5%;
-  top: 30%;
 
-  h3 {
-    font-size: 3rem;
-  }
-  h4 {
-    font-weight: lighter;
+  .tech-text {
+    position: absolute;
+    color: white;
+    margin: 10% 5%;
+    top: 7vh;
+
+    h3 {
+      font-size: 3rem;
+    }
+    h4 {
+      font-weight: lighter;
+    }
   }
 }
