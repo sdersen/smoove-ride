@@ -129,7 +129,7 @@ body {
   margin: 0;
 
   .background {
-    height: 40vh;
+    height: 400px;
     width: 100%;
     object-fit: cover;
     top: 0;
@@ -145,6 +145,7 @@ body {
     h3 {
       right: 0;
       font-size: 3rem;
+      margin-left: 5%;
     }
     h4 {
       font-weight: lighter;
@@ -157,7 +158,7 @@ body {
       column-gap: 5px;
       row-gap: 5px;
       position: absolute;
-      right: 0;
+      right: 10%;
       margin-top: 12px;
 
       .bullet {
@@ -185,12 +186,14 @@ body {
     object-fit: cover;
     width: 285px;
     height: 380px;  
-
+  }
+  h3{
+font-size: 2rem;
   }
   .text{
     position: absolute;
     top: 0;
-    margin-top: 50%;
+    margin-top: 20%;
     margin-left: 2rem;
     color: white;
   }
