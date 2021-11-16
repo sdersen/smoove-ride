@@ -37,3 +37,18 @@ const navSlide = () => {
 };
 
 navSlide();
+
+// Pop Up
+
+const popUp = document.querySelector('.pop-up');
+const popUpButton = document.querySelector('.button');
+const closeButton = document.querySelector('close-pop-up')
+
+popUpButton.addEventListener('click', function () {
+  popUp.classList.remove('hidden');
+})
+closeButton.addEventListener('click', function () {
+  popUp.classList.add('hidden');
+})
+
+
