@@ -9,16 +9,16 @@
 @media screen and (min-width: 1050px) {
   .merch-tour {
     .item {
-      width: 500px;
-      height: 380px;
-      margin: 1%;
+      // width: 500px;
+      // height: 380px;
+      margin: 0;
       background-color: green;
       position: relative;
     }
     img {
       object-fit: cover;
-      width: 500px;
-      height: 380px;
+      width: 49vw;
+      height: 100vh;  
     }
   }
 }
