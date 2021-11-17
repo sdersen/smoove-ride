@@ -32,7 +32,7 @@ body {
   background: linear-gradient(to right, #dd2476, #ff512f);
   width: 0%;
 }
-.pop-up{
+.pop-up {
   width: 300px;
   height: 300px;
   background-color: white;
@@ -41,7 +41,7 @@ body {
   left: 30vw;
   padding: 2%;
 }
-.hidden{
+.hidden {
   display: none;
 }
 
@@ -65,7 +65,7 @@ body {
     position: absolute;
     top: 75%;
     left: 5%;
-    background-color: rgba(000, 000, 000, 0.33);
+    background-color: rgba(126, 119, 119, 0.33);
     color: white;
     width: 100px;
     height: 50px;
@@ -191,18 +191,18 @@ body {
     width: 285px;
     height: 380px;
     margin: 1%;
-    background-color: green;    
+    background-color: green;
     position: relative;
   }
-  img{
+  img {
     object-fit: cover;
     width: 285px;
-    height: 380px;  
+    height: 380px;
   }
-  h3{
-font-size: 2rem;
+  h3 {
+    font-size: 2rem;
   }
-  .text{
+  .text {
     position: absolute;
     top: 0;
     margin-top: 20%;
