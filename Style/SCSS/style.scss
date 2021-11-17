@@ -180,6 +180,7 @@ body {
     }
   }
 }
+// Merch och tour section
 .merch-tour {
   display: flex;
   justify-content: center;
@@ -188,24 +189,40 @@ body {
   // width: 100vw;
 
   .item {
-    width: 285px;
-    height: 380px;
-    margin: 1%;
-    background-color: green;    
+    // width: 285px;
+    // height: 50vh;
     position: relative;
+    margin: 0;
+    
+  }
+  .tour.merch{
+    margin: 0;
   }
   img{
     object-fit: cover;
-    width: 285px;
-    height: 380px;  
+    width: 100vw;
+    height: 50vh;   
+    display: block;
+ 
   }
   h3{
 font-size: 2rem;
+margin-top: 10px;
+margin-bottom: 10px;
+  }
+  button{
+    height: 60px;
+    width: 130px;
+    font-size: 1.2rem;
+    border: white solid 2px;
+    background: transparent;
+    color: white;
+
   }
   .text{
     position: absolute;
-    top: 0;
-    margin-top: 20%;
+    top: 65%;
+    // margin-top: 20%;
     margin-left: 2rem;
     color: white;
   }
