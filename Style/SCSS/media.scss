@@ -2,8 +2,18 @@
   /* phones */
 }
 
-@media (min-width: 600px) {
+@media screen and (min-width: 600px) {
   /* tablets */
+  .footer-links {
+    flex-direction: row;
+    background-color: green;
+  }
+  .company-language {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: 1050px) {
@@ -18,7 +28,7 @@
     img {
       object-fit: cover;
       width: 49vw;
-      height: 100vh;  
+      height: 100vh;
     }
   }
 }
