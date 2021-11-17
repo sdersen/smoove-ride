@@ -1,12 +1,20 @@
 @media (min-width: 320px) {
   /* phones */
+  .merch-tour {
+    width: 100vw;
+
+    img {
+      object-fit: cover;
+      height: 50vh;
+    }
+  }
 }
 
 @media screen and (min-width: 600px) {
   /* tablets */
+
   .footer-links {
     flex-direction: row;
-    background-color: green;
   }
   .company-language {
     display: flex;
@@ -18,16 +26,14 @@
 
 @media screen and (min-width: 1050px) {
   .merch-tour {
+    flex-direction: row;
     .item {
-      // width: 500px;
-      // height: 380px;
       margin: 0;
-      background-color: green;
       position: relative;
     }
     img {
       object-fit: cover;
-      width: 49vw;
+      width: 50vw;
       height: 100vh;
     }
   }

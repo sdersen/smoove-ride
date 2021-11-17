@@ -206,6 +206,7 @@ body {
 // Merch och tour section
 .merch-tour {
   display: inline-flex;
+  flex-direction: column;
   width: 100%;
 
   .item {
@@ -216,6 +217,7 @@ body {
     margin: 0px;
   }
   img {
+    width: 100%;
   }
   h3 {
     font-size: 2rem;
@@ -238,7 +240,6 @@ body {
   .text {
     position: absolute;
     top: 65%;
-    // margin-top: 20%;
     margin-left: 2rem;
     color: white;
   }
