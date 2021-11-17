@@ -212,6 +212,7 @@ body {
   .item {
     margin: 0px;
     background-color: black;
+    position: relative;
   }
   .tour.merch {
     margin: 0px;
@@ -307,11 +308,6 @@ body {
     .car-club {
       display: flex;
       align-items: center;
-    }
-    .language {
-      // display: flex;
-      // justify-content: center;
-      // align-items: center;
     }
   }
 }
