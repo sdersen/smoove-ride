@@ -38,17 +38,10 @@ const navSlide = () => {
 
 navSlide();
 
-// Pop Up
+// image toggel
+const imageToHide = document.querySelector(".image-to-hide");
+const darkButton = document.querySelector(".dark-mode");
 
-const popUp = document.querySelector('.pop-up');
-const popUpButton = document.querySelector('.button');
-const closeButton = document.querySelector('close-pop-up')
-
-popUpButton.addEventListener('click', function () {
-  popUp.classList.remove('hidden');
-})
-closeButton.addEventListener('click', function () {
-  popUp.classList.add('hidden');
-})
-
-
+darkButton.addEventListener("click", function () {
+  imageToHide.classList.toggle("hidden");
+});
