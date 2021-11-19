@@ -141,19 +141,23 @@ body {
     left: 0;
     display: block; //USED TO REMOVE BOTTOM MARGIN, THANKS THEO!
   }
-}
-.section-text {
-  position: absolute;
-  color: white;
-  margin: 10% 5%;
-  top: 30%;
 
-  h3 {
-    font-size: 3rem;
-  }
-  h4 {
-    margin-top: 25vh;
-    font-weight: lighter;
+  .section-text {
+    position: absolute;
+    color: black;
+    left: 16px;
+    top: 10%;
+    display: block;
+    text-align: center;
+
+    h3 {
+      font-size: 5rem;
+      font-weight: lighter;
+    }
+
+    h3:nth-child(3) {
+      color: white;
+    }
   }
 }
 
