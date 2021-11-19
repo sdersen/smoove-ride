@@ -56,15 +56,23 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 10px;
 }
-.white-text {
+.white-btn {
   color: var(--white);
+  border: 1px solid var(--white);
+}
+.poo{
+  background-color: violet;
+  color: #0d8a8a;
+}
+.white-text{
+color: var(--white);
+fill: white;
 }
 .bg-black {
   background-color: var(--black);
 }
-.hidden-car {
-  position: absolute;
-  left: 0;
+.bg-white{
+  background-color: white;
 }
 .hidden {
   display: none;
