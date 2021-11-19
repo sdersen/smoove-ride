@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
-  :root {
-    --red: #3d1519;
-    --black: #585253;
-  }
+:root {
+  --red: #3d1519;
+  --black: #585253;
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -17,24 +17,23 @@ body {
 .scroll-header {
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 999;
   width: 100%;
   background-color: #f1f1f1;
+  .progress-container {
+    width: 100%;
+    height: 4px;
+    background: rgb(255, 255, 255);
+    .progress-bar {
+      height: 4px;
+      background: #ff512f;
+      background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
+      background: linear-gradient(to right, #dd2476, #ff512f);
+      width: 0%;
+    }
+  }
 }
 
-.progress-container {
-  width: 100%;
-  height: 4px;
-  background: rgb(255, 255, 255);
-}
-
-.progress-bar {
-  height: 4px;
-  background: #ff512f;
-  background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
-  background: linear-gradient(to right, #dd2476, #ff512f);
-  width: 0%;
-}
 .hero-section {
   height: 100vh;
   display: block;
@@ -96,32 +95,6 @@ body {
     }
   }
 }
-// .newsletter-container {
-//   width: 380px;
-//   margin-top: 25px;
-//   display: block;
-//   h4 {
-//     font-weight: 400;
-//   }
-
-//   .sign-up-btn {
-//     // position: absolute;
-//     // bottom: 8px;
-//     // right: 8px;
-//     background-color: transparent;
-//     color: white;
-//     width: 100px;
-//     height: 2rem;
-//     font-size: 1.2rem;
-//     border: 1px solid white;
-//     cursor: pointer;
-
-//     &:hover {
-//       background-color: white;
-//       color: black;
-//     }
-//   }
-// }
 
 .title-section {
   position: relative;
