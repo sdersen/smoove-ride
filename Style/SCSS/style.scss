@@ -148,48 +148,43 @@ body {
     font-weight: lighter;
   }
 }
+
+.smoove-quote {
+  margin: 48px 16px;
+  font-size: 16px;
+}
 .tech-section {
   position: relative;
   margin: 0;
 
-  .background {
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    display: block;
+  h1 {
+    margin-left: 16px;
+    font-size: 3rem;
+    font-weight: lighter;
   }
-  .tech-text {
-    position: absolute;
-    color: white;
-    top: 7vh;
-    right: 0;
 
-    h3 {
-      right: 0;
-      font-size: 3rem;
-      margin-left: 5%;
-    }
-    h4 {
-      font-weight: lighter;
-    }
+  img {
+    width: 100%;
+  }
 
-    .bullets {
-      display: grid;
-      grid-template-columns: 100px 120px;
-      grid-template-rows: 20px;
-      column-gap: 5px;
-      row-gap: 5px;
-      position: absolute;
-      right: 10%;
-      margin-top: 12px;
+  h2 {
+    margin-left: 16px;
+    font-size: 2rem;
+    font-weight: lighter;
+    padding-bottom: 16px;
+  }
 
-      .bullet {
-        text-transform: uppercase;
-        font-weight: bold;
-      }
+  ul {
+    padding-inline-start: 16px;
+    li {
+      list-style: none;
+      margin-left: 0px;
     }
+  }
+
+  p {
+    margin-left: 16px;
+    padding-bottom: 16px;
   }
 }
 // Merch och tour section
