@@ -1,5 +1,5 @@
 :root {
-  --black: #585253;
+  --black: #000000;
 }
 nav {
   display: flex;
@@ -51,7 +51,8 @@ nav {
 
 .burger {
   display: inline-block;
-  right: 20px;
+  margin-right: 20px;
+  margin-top: 80px;
   div {
     width: 25px;
     height: 3px;
