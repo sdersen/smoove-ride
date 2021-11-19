@@ -2,7 +2,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  min-height: 5vh;
+  height: 30px;
   background-color: rgba(255, 255, 255);
   position: fixed;
   right: 0;
@@ -43,7 +43,7 @@ nav {
   }
 
   a:hover {
-    color: rgb(49, 44, 44);
+    color: rgb(201, 34, 34);
   }
 }
 
