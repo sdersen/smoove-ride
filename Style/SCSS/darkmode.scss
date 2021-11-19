@@ -1,10 +1,11 @@
 :root {
   --black: #000000;
+  --white: #fff;
 }
 /* Toggle switch */
 .switch {
   position: absolute;
-  // display: inline-block;
+  display: inline-block;
   top: 80px;
   right: 20px;
   width: 34px;
@@ -23,7 +24,7 @@
   right: 0;
   bottom: 0;
   background-color: #0d8a8a;
-  //   -webkit-transition: 0.4s;
+  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 .slider:before {
@@ -34,15 +35,15 @@
   left: -7px;
   bottom: 0;
   background-color: white;
-  //   -webkit-transition: 0.4s;
+  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 input:checked + .slider {
   background-color: #ccc;
 }
-input:focus + .slider {
-  //   box-shadow: 0 0 1px #0D8A8A;
-}
+// input:focus + .slider {
+//   box-shadow: 0 0 1px #0d8a8a;
+// }
 input:checked + .slider:before {
   //   -webkit-transform: translateX(26px);
   //   -ms-transform: translateX(26px);
