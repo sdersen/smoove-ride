@@ -1,6 +1,5 @@
-:root {
-  --black: #000000;
-}
+@import "colors.scss";
+
 nav {
   display: flex;
   justify-content: flex-end;
@@ -45,7 +44,7 @@ nav {
   }
 
   a:hover {
-    color: rgb(201, 34, 34);
+    color: var(--red);
   }
 }
 
