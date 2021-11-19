@@ -1,11 +1,11 @@
 :root {
-  --white: #c22020;
+  --black: #000000;
 }
 /* Toggle switch */
 .switch {
   position: absolute;
   // display: inline-block;
-  top: 40px;
+  top: 80px;
   right: 20px;
   width: 34px;
   height: 19px;
@@ -22,8 +22,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
-//   -webkit-transition: 0.4s;
+  background-color: #0d8a8a;
+  //   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 .slider:before {
@@ -34,18 +34,18 @@
   left: -7px;
   bottom: 0;
   background-color: white;
-//   -webkit-transition: 0.4s;
+  //   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 input:checked + .slider {
-  background-color: #0D8A8A;
+  background-color: #ccc;
 }
 input:focus + .slider {
-//   box-shadow: 0 0 1px #0D8A8A;
+  //   box-shadow: 0 0 1px #0D8A8A;
 }
 input:checked + .slider:before {
-//   -webkit-transform: translateX(26px);
-//   -ms-transform: translateX(26px);
+  //   -webkit-transform: translateX(26px);
+  //   -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
 /* Rounded sliders */
@@ -55,7 +55,16 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 10px;
 }
-.white-text{
+.white-text {
   color: var(--white);
 }
-
+.bg-black {
+  background-color: var(--black);
+}
+.hidden-car {
+  position: absolute;
+  left: 0;
+}
+.hidden {
+  display: none;
+}
