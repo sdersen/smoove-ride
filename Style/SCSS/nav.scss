@@ -1,5 +1,11 @@
 @import "colors.scss";
 
+:root {
+  --black: #141414;
+  --white: #f3f3f3;
+  --red: #3d1519;
+}
+
 nav {
   display: flex;
   justify-content: flex-end;
@@ -12,7 +18,7 @@ nav {
   top: 4px;
 
   &:hover {
-    background-color: white;
+    background-color: var(--white);
   }
 }
 .nav-links {
@@ -20,7 +26,7 @@ nav {
   right: 0px;
   height: 92vh;
   top: 0vh;
-  background-color: white;
+  background-color: var(--white);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +44,7 @@ nav {
   }
 
   a {
-    color: black;
+    color: var(--black);
     text-decoration: none;
     letter-spacing: 2px;
   }

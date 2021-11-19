@@ -1,6 +1,7 @@
 :root {
-  --black: #000000;
-  --white: #fff;
+  --black: #141414;
+  --white: #f3f3f3;
+  --red: #3d1519;
 }
 /* Toggle switch */
 .switch {
@@ -34,7 +35,7 @@
   width: 19px;
   left: -7px;
   bottom: 0;
-  background-color: white;
+  background-color: var(--white);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -66,13 +67,13 @@ input:checked + .slider:before {
 }
 .white-text {
   color: var(--white);
-  fill: white;
+  fill: var(--white);
 }
 .bg-black {
   background-color: var(--black);
 }
 .bg-white {
-  background-color: white;
+  background-color: var(--white);
 }
 .hidden {
   display: none;

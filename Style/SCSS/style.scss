@@ -40,7 +40,7 @@ body {
 }
 
 .hero-section {
-  height: 115vh;
+  height: 100vh;
   display: block;
   background-color: var(--white);
 
@@ -110,7 +110,7 @@ body {
   margin: 0px;
 
   .background {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     top: 0;
