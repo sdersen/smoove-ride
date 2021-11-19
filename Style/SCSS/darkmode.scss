@@ -6,7 +6,7 @@
 .switch {
   position: absolute;
   display: inline-block;
-  top: 80px;
+  top: 50px;
   right: 20px;
   width: 34px;
   height: 19px;
@@ -60,18 +60,18 @@ input:checked + .slider:before {
   color: var(--white);
   border: 1px solid var(--white);
 }
-.poo{
+.poo {
   background-color: violet;
   color: #0d8a8a;
 }
-.white-text{
-color: var(--white);
-fill: white;
+.white-text {
+  color: var(--white);
+  fill: white;
 }
 .bg-black {
   background-color: var(--black);
 }
-.bg-white{
+.bg-white {
   background-color: white;
 }
 .hidden {

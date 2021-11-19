@@ -13,7 +13,7 @@ nav {
   top: 4px;
 
   &:hover {
-    background-color: rgb(250, 250, 250);
+    background-color: white;
   }
 }
 .nav-links {
@@ -21,7 +21,7 @@ nav {
   right: 0px;
   height: 92vh;
   top: 0vh;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,8 +51,8 @@ nav {
 
 .burger {
   display: inline-block;
-  margin-right: 20px;
-  margin-top: 80px;
+  // margin-right: 5px;
+  margin-top: 4px;
   div {
     width: 25px;
     height: 3px;
