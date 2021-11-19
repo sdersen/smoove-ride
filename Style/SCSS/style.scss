@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
-
+  :root {
+    --red: #3d1519;
+    --black: #585253;
+  }
 * {
   margin: 0;
   box-sizing: border-box;
@@ -22,7 +25,7 @@ body {
 .progress-container {
   width: 100%;
   height: 4px;
-  background: black;
+  background: rgb(255, 255, 255);
 }
 
 .progress-bar {
@@ -48,6 +51,7 @@ body {
     position: absolute;
     top: 7%;
     left: 5%;
+    width: 200px;
   }
 
   .title-phrase {
@@ -56,8 +60,7 @@ body {
     width: 350px;
     top: 50%;
     left: 5%;
-    background-color: rgba(000, 000, 000, 0.33);
-    color: white;
+    color: var(--black);
 
     .title {
       margin-bottom: 25px;
@@ -78,11 +81,11 @@ body {
 
       .sign-up-btn {
         background-color: transparent;
-        color: white;
+        color: var(--black);
         width: 120px;
         height: 54px;
         font-size: 1rem;
-        border: 1px solid white;
+        border: 1px solid var(--black);
         cursor: pointer;
         margin-bottom: 5%;
       }
