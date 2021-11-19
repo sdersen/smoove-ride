@@ -37,11 +37,3 @@ const navSlide = () => {
 };
 
 navSlide();
-
-// image toggel
-const imageToHide = document.querySelector(".image-to-hide");
-const darkButton = document.querySelector(".dark-mode");
-
-darkButton.addEventListener("click", function () {
-  imageToHide.classList.toggle("hidden");
-});

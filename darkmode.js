@@ -1,12 +1,8 @@
-const darkSwitch = document.querySelector('.switch');
-const headline = document.querySelector('.title')
+const darkSwitch = document.querySelector(".switch");
+const headline = document.querySelector(".title");
+const titleText = document.querySelector(".phrase");
 
-ligthBUtton.addEventListener('click', () => {
-darkButton.classList.remove('change-class');
-document.body.style.backgroundColor = '#FFFFFF';
+darkSwitch.addEventListener("click", () => {
+  headline.classList.toggle("white-text");
+  console.log("hej");
 });
-
-darkButton.addEventListener('click', () => {
-    darkButton.classList.add('change-class');
-    document.body.style.backgroundColor = '#1E1F1C';
-    });
