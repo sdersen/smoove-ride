@@ -42,7 +42,10 @@
 @media screen and (max-width: 1024px) {
   .nav-links {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vw;
   }
 }
 @media screen and (max-width: 768px) {
@@ -58,6 +61,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
     transform: translateY(-100%);
@@ -91,10 +95,12 @@
 // Navbar animation
 .toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
+  background-color: var(--white);
 }
 .toggle .line2 {
   opacity: 0;
 }
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
+  background-color: var(--white);
 }
