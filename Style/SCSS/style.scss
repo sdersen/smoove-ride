@@ -68,58 +68,66 @@ body {
       font-size: 1rem;
       font-weight: 300;
     }
-  }
 
-  .scroll-btn {
-    background-color: white;
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    position: absolute;
-    top: 95%;
-    left: 50%;
-    color: black;
-    font-size: 1.5rem;
-    text-align: center;
-    z-index: 3;
-  }
-}
+    .btn-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 15%;
 
-.newsletter-container {
-  width: 380px;
-  margin-top: 25px;
-  display: block;
-  h4 {
-    font-weight: 400;
-  }
-  input {
-    margin-top: 10px;
-    background-color: black;
-    height: 3rem;
-    font-size: 1rem;
-    width: 350px;
-    color: white;
-    border: 1px solid white;
-  }
-
-  .sign-up-btn {
-    position: absolute;
-    bottom: 8px;
-    right: 8px;
-    background-color: transparent;
-    color: white;
-    width: 100px;
-    height: 2rem;
-    font-size: 1.2rem;
-    border: 1px solid white;
-    cursor: pointer;
-
-    &:hover {
-      background-color: white;
-      color: black;
+      .sign-up-btn {
+        background-color: transparent;
+        color: white;
+        width: 120px;
+        height: 54px;
+        font-size: 1rem;
+        border: 1px solid white;
+        cursor: pointer;
+        margin-bottom: 5%;
+      }
+      p {
+        width: 200px;
+        text-align: center;
+      }
     }
   }
 }
+// .newsletter-container {
+//   width: 380px;
+//   margin-top: 25px;
+//   display: block;
+//   h4 {
+//     font-weight: 400;
+//   }
+//   input {
+//     margin-top: 10px;
+//     background-color: black;
+//     height: 3rem;
+//     font-size: 1rem;
+//     width: 350px;
+//     color: white;
+//     border: 1px solid white;
+//   }
+
+//   .sign-up-btn {
+//     // position: absolute;
+//     // bottom: 8px;
+//     // right: 8px;
+//     background-color: transparent;
+//     color: white;
+//     width: 100px;
+//     height: 2rem;
+//     font-size: 1.2rem;
+//     border: 1px solid white;
+//     cursor: pointer;
+
+//     &:hover {
+//       background-color: white;
+//       color: black;
+//     }
+//   }
+// }
 
 .title-section {
   position: relative;
