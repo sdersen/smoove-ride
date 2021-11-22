@@ -1,23 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
 @font-face {
-  font-family: 'Monument';
-  src: local('MonumentExtended-black'),
-      url('/Fonts/MonumentExtended-Black.woff2') format('woff2'),
-    url('/Fonts/MonumentExtended-Black.woff') format('woff');
-    font-weight: bold;      
+  font-family: "Monument";
+  src: local("MonumentExtended-black"),
+    url("/Fonts/MonumentExtended-Black.woff2") format("woff2"),
+    url("/Fonts/MonumentExtended-Black.woff") format("woff");
+  font-weight: bold;
 }
 @font-face {
-  font-family:'Monument' ;
-  src: url('MonumentExtended-ligth'),
-  url('/Fonts/MonumentExtended-Light.woff2') format('woff2'),
-  url('/Fonts/MonumentExtended-Light.woff') format('woff');
+  font-family: "Monument";
+  src: url("MonumentExtended-ligth"),
+    url("/Fonts/MonumentExtended-Light.woff2") format("woff2"),
+    url("/Fonts/MonumentExtended-Light.woff") format("woff");
   font-weight: lighter;
 }
 @font-face {
-  font-family:'Monument' ;
-  src: url('MonumentExtended-regular'),
-  url('/Fonts/MonumentExtended-Regular.woff2') format('woff2'),
-  url('/Fonts/MonumentExtended-Regular.woff') format('woff');
+  font-family: "Monument";
+  src: url("MonumentExtended-regular"),
+    url("/Fonts/MonumentExtended-Regular.woff2") format("woff2"),
+    url("/Fonts/MonumentExtended-Regular.woff") format("woff");
   font-weight: normal;
 }
 :root {
@@ -94,7 +94,6 @@ body {
       font-weight: lighter;
     }
 
-
     .phrase {
       font-size: 1.3rem;
       font-weight: 300;
@@ -108,14 +107,17 @@ body {
       margin-top: 10%;
 
       .sign-up-btn {
-        background-color: transparent;
+        display: block;
+        height: 60px;
+        width: 130px;
+        padding: 3px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.2rem;
+        border: var(--black) solid 2px;
         color: var(--black);
-        width: 120px;
-        height: 54px;
-        font-size: 1rem;
-        border: 1px solid var(--black);
-        cursor: pointer;
-        margin-bottom: 5%;
+        background: transparent;
+        padding-top: 15px;
       }
       p {
         text-align: center;
