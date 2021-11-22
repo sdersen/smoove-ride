@@ -8,7 +8,7 @@
 }
 @font-face {
   font-family: "Monument";
-  src: url("MonumentExtended-ligth"),
+  src: url("MonumentExtended-light"),
     url("/Fonts/MonumentExtended-Light.woff2") format("woff2"),
     url("/Fonts/MonumentExtended-Light.woff") format("woff");
   font-weight: lighter;
@@ -90,7 +90,7 @@ body {
     .title {
       margin-bottom: 25px;
       font-size: 3rem;
-      font-family: "Monument";
+      font-family: "Monument", sans-serif;
       font-weight: lighter;
     }
 
