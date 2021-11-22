@@ -21,6 +21,44 @@
     height: 10vh;
   }
 
+  .background img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .logo {
+    top: 113px;
+    left: 106px;
+  }
+
+  .title-phrase {
+    top: 248px !important;
+    left: 106px !important;
+
+    .title {
+      font-size: 64px !important;
+    }
+
+    .btn-container {
+      align-items: flex-start !important;
+      width: 185px;
+
+      .sign-up-btn {
+        left: 0px;
+        margin-bottom: 32px;
+      }
+
+      p {
+        text-align: start !important;
+      }
+    }
+  }
+
+  .switch {
+    top: 680px !important;
+    right: 4px;
+  }
+
   .footer-links {
     display: flex;
     justify-content: center;
@@ -28,26 +66,6 @@
   }
   .company-language {
     flex-direction: row;
-  }
-
-  .background img {
-    height: 100%;
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 1050px) {
-  .merch-tour {
-    flex-direction: row;
-    .item {
-      margin: 0;
-      position: relative;
-    }
-    img {
-      object-fit: cover;
-      width: 50vw;
-      height: 100vh;
-    }
   }
 }
 
