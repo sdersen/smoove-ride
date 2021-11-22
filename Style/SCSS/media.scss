@@ -29,6 +29,11 @@
   .company-language {
     flex-direction: row;
   }
+
+  .background img {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1050px) {
