@@ -7,7 +7,6 @@
   right: 0px;
   width: 34px;
   height: 19px;
-  transform: rotate(180deg);
   margin-right: 4px;
 }
 .switch input {
@@ -51,6 +50,7 @@ input:checked + .slider:before {
 /* Rounded sliders */
 .slider.round {
   border-radius: 10px;
+  transform: rotate(180deg);
 }
 .slider.round:before {
   border-radius: 10px;

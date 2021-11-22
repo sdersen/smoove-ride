@@ -1,24 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
 
-// @font-face {
-//   font-family: "Monument";
-//   src: url("/Fonts/MonumentExtended-Black.woff2") format("woff2"),
-//     url("/Fonts/MonumentExtended-Black.woff") format("woff");
-//   font-weight: bold;
-// }
-// @font-face {
-//   font-family: "Monument";
-//   src: url("/Fonts/MonumentExtended-Light.woff2") format("woff2"),
-//     url("/Fonts/MonumentExtended-Light.woff") format("woff");
-//   font-weight: lighter;
-// }
-// @font-face {
-//   font-family: "Monument";
-//   src: url("/Fonts/MonumentExtended-Regular.woff2") format("woff2"),
-//     url("/Fonts/MonumentExtended-Regular.woff") format("woff");
-//   font-weight: normal;
-// }
-
 * {
   margin: 0;
   box-sizing: border-box;
@@ -154,6 +135,7 @@ body {
   margin: 48px 16px;
   font-size: 16px;
 }
+
 .tech-section {
   position: relative;
   margin: 0;
@@ -162,9 +144,6 @@ body {
     margin-left: 16px;
     font-size: 3rem;
     font-weight: lighter;
-  }
-
-  img {
   }
 
   h2 {
@@ -193,12 +172,6 @@ body {
   flex-direction: column;
   width: 100%;
   margin-top: 146px;
-
-  .watch {
-    img {
-      // width: 100%;
-    }
-  }
 
   .member {
     display: flex;
