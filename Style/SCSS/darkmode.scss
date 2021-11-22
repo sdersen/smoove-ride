@@ -1,8 +1,3 @@
-:root {
-  --black: #141414;
-  --white: #f3f3f3;
-  --red: #3d1519;
-}
 /* Toggle switch */
 .switch {
   position: absolute;
@@ -62,14 +57,12 @@ input:checked + .slider:before {
   color: var(--white);
   border: 1px solid var(--white);
 }
-.poo {
-  background-color: violet;
-  color: #0d8a8a;
-}
+
 .white-text {
   color: var(--white);
   fill: var(--white);
 }
+
 .bg-black {
   background-color: var(--black);
 }
