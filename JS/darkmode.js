@@ -1,7 +1,7 @@
 const darkSwitch = document.querySelector(".switch input");
 const headline = document.querySelector(".title");
 const titleText = document.querySelector(".phrase");
-const signUpBtn = document.querySelector("sign-up-btn");
+const signUpBtn = document.querySelector(".sign-up-btn");
 const signUpP = document.querySelector(".btn-container p");
 const hiddenCar = document.querySelector(".hidden-car");
 const heroBackround = document.querySelector(".hero-section");
