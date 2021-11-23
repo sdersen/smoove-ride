@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   scroll-behavior: smooth;
 }
 body {
@@ -39,6 +41,7 @@ body {
   .background {
     position: absolute;
     z-index: 0;
+    transition: 3s;
   }
   .hidden-car {
     position: absolute;
@@ -60,22 +63,20 @@ body {
     color: var(--black);
 
     .title {
-      margin-bottom: 25px;
-      font-size: 3rem;
-      font-weight: lighter;
+      margin-bottom: 16px;
+      font-size: 4rem;
+      font-family: "Raleway", sans-serif;
     }
 
     .phrase {
       font-size: 1.3rem;
-      font-weight: 300;
     }
 
     .btn-container {
       display: flex;
       flex-direction: column;
-
       align-items: center;
-      margin-top: 10%;
+      margin-top: 16px;
 
       .sign-up-btn {
         display: block;
@@ -92,6 +93,7 @@ body {
       }
       p {
         text-align: center;
+        font-size: 0.8;
       }
     }
   }
@@ -120,7 +122,7 @@ body {
 
     h3 {
       font-size: 4rem;
-      font-weight: lighter;
+      font-family: "Raleway", sans-serif;
       text-align: center;
       // width: 100vw;
     }
@@ -140,16 +142,16 @@ body {
   position: relative;
   margin: 0;
 
-  h1 {
-    margin-left: 16px;
-    font-size: 3rem;
-    font-weight: lighter;
-  }
-
   h2 {
     margin-left: 16px;
-    font-size: 2rem;
-    font-weight: lighter;
+    font-size: 3rem;
+    font-family: "Raleway", sans-serif;
+  }
+
+  h3 {
+    margin-left: 16px;
+    font-size: 2.3rem;
+    font-family: "Raleway", sans-serif;
     padding-bottom: 16px;
   }
 
@@ -160,12 +162,11 @@ body {
       margin-left: 0px;
     }
   }
-
   p {
     margin-left: 16px;
     padding-bottom: 16px;
   }
-  .grid-item1 img{
+  .grid-item1 img {
     height: 687px;
     width: 100%;
     object-fit: cover;
@@ -183,11 +184,11 @@ body {
     flex-direction: column;
     margin-left: 16px;
     h3 {
-      font-size: 2rem;
+      font-size: 3rem;
       margin-top: 0px;
       margin-bottom: 16px;
       color: var(--black);
-      font-weight: lighter;
+      font-family: "Raleway", sans-serif;
     }
 
     .newsletter-container {

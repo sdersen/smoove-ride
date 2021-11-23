@@ -8,7 +8,12 @@
   width: 34px;
   height: 19px;
   margin-right: 4px;
+
+  p {
+    font-size: 1rem;
+  }
 }
+
 .switch input {
   opacity: 0;
   width: 0;
@@ -57,14 +62,12 @@ input:checked + .slider:before {
 }
 .white-btn {
   color: var(--white);
-  border: 1px solid var(--white);
+  border: 1px solid white;
 }
-
 .white-text {
   color: var(--white);
   fill: var(--white);
 }
-
 .bg-black {
   background-color: var(--black);
 }
@@ -72,5 +75,7 @@ input:checked + .slider:before {
   background-color: var(--white);
 }
 .hidden {
-  display: none;
+  // display: none;
+  opacity: 0;
+  transition: 2s;
 }

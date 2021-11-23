@@ -12,7 +12,7 @@ darkSwitch.addEventListener("click", () => {
   headline.classList.toggle("white-text");
   titleText.classList.toggle("white-text");
   signUpP.classList.toggle("white-text");
-  signUpBtn.classList.toggle("white-text");
+  signUpBtn.classList.toggle("white-btn");
   hiddenCar.classList.toggle("hidden");
   heroBackround.classList.toggle("bg-black");
   // console.log("Toggled");
