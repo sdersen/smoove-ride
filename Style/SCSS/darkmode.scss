@@ -3,8 +3,8 @@
   position: absolute;
   display: inline-block;
   z-index: 3;
-  top: 50px;
-  right: 0px;
+  top: 40px;
+  left: 16px;
   width: 34px;
   height: 19px;
   margin-right: 4px;
@@ -60,9 +60,9 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 10px;
 }
-.white-btn {
+.sign-up-btn.white-btn {
   color: var(--white);
-  border: 1px solid white;
+  border: 1px solid var(--white);
 }
 .white-text {
   color: var(--white);

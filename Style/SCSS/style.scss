@@ -38,6 +38,11 @@ body {
   display: block;
   background-color: var(--white);
 
+  picture img {
+    height: 100vh;
+    max-width: 100vw;
+  }
+
   .background {
     position: absolute;
     z-index: 0;
@@ -50,8 +55,9 @@ body {
 
   .logo {
     position: absolute;
-    top: 7%;
+    top: 38px;
     width: 200px;
+    left: 93px;
   }
 
   .title-phrase {
@@ -78,25 +84,26 @@ body {
       align-items: center;
       margin-top: 16px;
 
-      .sign-up-btn {
-        display: block;
-        height: 60px;
-        width: 130px;
-        padding: 3px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 1.2rem;
-        border: var(--black) solid 2px;
-        color: var(--black);
-        background: transparent;
-        padding-top: 15px;
-      }
       p {
         text-align: center;
         font-size: 0.8;
       }
     }
   }
+}
+
+.sign-up-btn {
+  display: block;
+  height: 60px;
+  width: 130px;
+  padding: 3px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border: var(--black) solid 2px;
+  color: var(--black);
+  background: transparent;
+  padding-top: 15px;
 }
 
 .title-section {
@@ -170,6 +177,21 @@ body {
     height: 687px;
     width: 100%;
     object-fit: cover;
+    transition: all 1.2s ease-in-out;
+  }
+
+  .grid-item1 img:hover {
+    transform: scale(1.2) translateX(100px);
+  }
+
+  .grid-item2 img {
+    width: 100%;
+    object-fit: cover;
+    transition: all 1.2s ease-in-out;
+  }
+
+  .grid-item2 img:hover {
+    transform: scale(1.2) translateX(-100px);
   }
 }
 // Merch och tour section

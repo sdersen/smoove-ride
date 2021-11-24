@@ -10,9 +10,9 @@ nav {
   z-index: 99;
   top: 4px;
 
-  &:hover {
-    background-color: var(--white);
-  }
+  // &:hover {
+  //   background-color: var(--white);
+  // }
 }
 .nav-links {
   position: absolute;
@@ -49,10 +49,11 @@ nav {
 }
 
 .burger {
+  background-color: transparent;
   display: inline-block;
-  margin-top: 4px;
+  margin-top: 60px;
   div {
-    width: 25px;
+    width: 35px;
     height: 3px;
     background-color: var(--black);
     margin: 5px;
