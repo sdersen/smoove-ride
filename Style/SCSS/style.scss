@@ -224,8 +224,9 @@ body {
     margin-left: 16px;
     padding-bottom: 16px;
   }
+
   .grid-item1 img {
-    height: 687px;
+    height: 555px;
     width: 100%;
     object-fit: cover;
     transition: all 1.2s ease-in-out;
@@ -243,6 +244,19 @@ body {
 
   .grid-item2 img:hover {
     transform: scale(1.2) translateX(-100px);
+  }
+
+  .grid-item3 img {
+    height: 555px;
+    width: 100%;
+    object-fit: cover;
+    transition: all 1.2s ease-in-out;
+  }
+  .grid-item5 img {
+    height: 555px;
+    width: 100%;
+    object-fit: cover;
+    transition: all 1.2s ease-in-out;
   }
   @media (min-width: 320px) {
     .grid-parent-desktop {
@@ -262,7 +276,7 @@ body {
     .grid-parent-desktop {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(2, 1fr);
+      grid-template-rows: 555px 250px;
       grid-column-gap: 8px;
       grid-row-gap: 8px;
 
@@ -287,6 +301,7 @@ body {
       }
       .grid-item4 {
         grid-area: 2 / 2 / 3 / 3;
+        height: 200px;
 
         p {
           border-top: 1px solid black;
@@ -296,6 +311,7 @@ body {
       .grid-item5 {
         grid-area: 2 / 3 / 3 / 4;
         margin-right: 106px;
+        height: 200px;
         p {
           border-top: 1px solid black;
           padding-top: 8px;
@@ -309,7 +325,7 @@ body {
   display: inline-flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 146px;
+  margin-top: 100px;
 
   .member {
     display: flex;
