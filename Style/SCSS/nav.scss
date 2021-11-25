@@ -46,6 +46,25 @@ nav {
   a:hover {
     color: var(--red);
   }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: flex-end;
+    // justify-content: space-evenly;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    height: 10vh;
+    padding-right: 200px;
+
+    li {
+      margin-left: 20px;
+    }
+    a {
+      font-size: 1rem;
+      margin-left: 20px;
+    }
+  }
 }
 
 .burger {
@@ -59,5 +78,10 @@ nav {
     margin: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-top: 50px;
+    margin-right: 114px;
   }
 }

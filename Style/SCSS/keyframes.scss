@@ -1,0 +1,28 @@
+/* NAVBAR KEYFRAMES */
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+// Navbar animation
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+  background-color: var(--white);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+  background-color: var(--white);
+}
