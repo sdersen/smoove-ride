@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 * {
   margin: 0;
@@ -25,9 +24,8 @@ body {
     background: var(--white);
     .progress-bar {
       height: 4px;
-      background: #ff512f;
-      background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
-      background: linear-gradient(to right, #dd2476, #ff512f);
+      background: var(--blue);
+
       width: 0%;
     }
   }
@@ -44,6 +42,7 @@ body {
     z-index: 20;
     top: 8vh;
     left: 2vw;
+
     @media screen and (min-width: 768px) {
       top: 93vh;
       left: 87vw;
@@ -53,7 +52,7 @@ body {
   }
 
   picture img {
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
     @media screen and (max-width: 1300px) {
       height: 100vh;
@@ -95,6 +94,7 @@ body {
 
     .phrase {
       font-size: 1.3rem;
+      font-weight: 400;
     }
 
     .btn-container {
@@ -107,6 +107,10 @@ body {
         text-align: center;
         font-size: 0.8;
       }
+    }
+    .sign-up-btn:hover{
+      background-color: var(--blue);
+      color: var(--white);
     }
 
     @media screen and (min-width: 768px) {
@@ -150,7 +154,7 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: 1.2rem;
-  border: var(--black) solid 2px;
+  border: var(--black) solid 1px;
   color: var(--black);
   background: transparent;
   padding-top: 15px;
@@ -173,27 +177,21 @@ body {
     position: absolute;
     color: var(--black);
     top: 2%;
-    // display: flex;
-    // flex-direction: column;
-    // text-align: center;
 
     h2 {
       font-size: 4rem;
       font-family: "Raleway", sans-serif;
       text-align: center;
-      // width: 100vw;
-    }
+      left: 24px;
 
-    h3:nth-child(3) {
-      color: var(--white);
+      @media screen and (min-width: 768px) {
+        margin-left: 106px;
+        margin-top: 40px;
+        text-align: start;
+      }
     }
   }
 }
-
-// .smoove-quote {
-//   margin: 48px 16px;
-//   font-size: 16px;
-// }
 
 .tech-section {
   position: relative;
@@ -380,7 +378,6 @@ body {
         background: transparent;
         color: var(--black);
       }
-
       button:hover {
         background: var(--black);
         color: var(--white);
@@ -395,9 +392,14 @@ body {
     .member {
       width: 40%;
     }
-    .watch {
+
+    .watch{
+      height: 500px;
       width: 50%;
-      height: 550px;
+    }
+    .watch img{
+      height: 100%;
+      object-fit: cover;
     }
   }
 }
@@ -406,7 +408,19 @@ body {
   background-color: var(--black);
   padding: 3%;
   padding-top: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
+  .footer-logo{
+    transform: scale(0.5);
+  }
+p {
+  text-align: center;
+}
+.footer-links{
+  margin-top: 16px;
+}
   .footer-svg {
     display: flex;
     justify-content: center;
@@ -425,6 +439,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 2%;
+    margin-top: 16px;
   }
   .ligth-link {
     font-weight: lighter;
@@ -432,6 +447,7 @@ body {
   }
   .bold-link {
     font-size: 1rem;
+    font-weight: bold;
   }
 
   a {
