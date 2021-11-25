@@ -9,11 +9,9 @@
   height: 19px;
   margin-right: 4px;
 
-  p {
-    font-size: 1rem;
-  }
-
   @media screen and (min-width: 768px) {
+    top: 640px;
+    left: 1262px;
     margin-top: 0px;
     right: 8px;
   }
@@ -43,7 +41,7 @@
   width: 19px;
   left: -6px;
   bottom: 0;
-  background-color: var(--black);
+  background-color: var(--white);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -69,10 +67,12 @@ input:checked + .slider:before {
 .sign-up-btn.white-btn {
   color: var(--white);
   border: 1px solid var(--white);
+  transition: 2s;
 }
 .white-text {
-  color: var(--white);
+  color: var(--white) !important;
   fill: var(--white);
+  transition: 2s;
 }
 .bg-black {
   background-color: var(--black);
@@ -83,5 +83,15 @@ input:checked + .slider:before {
 .hidden {
   // display: none;
   opacity: 0;
+  transition: 2s;
+}
+.white-menu {
+  color: var(--white);
+  background-color: var(--white) !important;
+  transition: 2s;
+}
+
+.fill-color {
+  fill: var(--white);
   transition: 2s;
 }

@@ -10,9 +10,9 @@ nav {
   z-index: 99;
   top: 4px;
 
-  // &:hover {
-  //   background-color: var(--white);
-  // }
+  @media screen and (min-width: 768px) {
+    top: 0;
+  }
 }
 .nav-links {
   position: absolute;
@@ -41,6 +41,7 @@ nav {
     text-decoration: none;
     letter-spacing: 2px;
     font-size: 1.5rem;
+    text-transform: uppercase;
   }
 
   a:hover {
@@ -50,17 +51,18 @@ nav {
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: flex-end;
-    // justify-content: space-evenly;
     flex-direction: row;
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 100vw;
+    background-color: rgba(0, 0, 0, 0);
+    width: 80vw;
     height: 10vh;
     padding-right: 200px;
+    top: 0vh;
 
     li {
       margin-left: 20px;
     }
     a {
+      color: var(--black);
       font-size: 1rem;
       margin-left: 20px;
     }
@@ -81,7 +83,7 @@ nav {
   }
 
   @media screen and (min-width: 768px) {
-    margin-top: 50px;
+    margin-top: 220px;
     margin-right: 114px;
   }
 }

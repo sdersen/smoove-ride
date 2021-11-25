@@ -38,6 +38,18 @@ body {
   display: block;
   background-color: var(--white);
 
+  .darkmode-text {
+    font-size: 0.8rem;
+    position: absolute;
+    z-index: 20;
+    @media screen and (min-width: 768px) {
+      top: 665px;
+      left: 1247px;
+      margin-top: 0px;
+      right: 8px;
+    }
+  }
+
   picture img {
     height: 100vh;
     max-width: 100vw;
@@ -72,6 +84,7 @@ body {
       margin-bottom: 16px;
       font-size: 4rem;
       font-family: "Raleway", sans-serif;
+      transition: 2s;
     }
 
     .phrase {
