@@ -214,10 +214,16 @@ body {
   }
 
   ul {
+    padding-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
     padding-inline-start: 16px;
+    border-top: 1px solid black;
     li {
-      list-style: none;
-      margin-left: 0px;
+      list-style: circle;
+      margin-left: 16px;
+      margin-right: 16px;
+      margin-bottom: 8px;
     }
   }
   p {
@@ -264,6 +270,16 @@ body {
     }
   }
   @media screen and (min-width: 768px) {
+    ul {
+      padding-inline-start: 16px;
+      border-top: 1px solid black;
+      li {
+        list-style: circle;
+        margin-left: 0px;
+        margin-bottom: 8px;
+      }
+    }
+
     h2 {
       margin-left: 106px;
       margin-right: 106px;
