@@ -1,6 +1,9 @@
 /* NAVBAR KEYFRAMES */
 .nav-active {
-  transform: translateX(0%) translateY(8vh);
+  transform: translateX(5%) translateY(0%);
+  @media screen and (min-width: 768px) {
+    transform: translateX(0%) translateY(8vh);
+  }
 }
 
 @keyframes navLinkFade {
@@ -17,12 +20,18 @@
 // Navbar animation
 .toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
-  background-color: var(--black);
+  background-color: var(--white);
+  @media screen and (min-width: 768px) {
+    background-color: var(--black);
+  }
 }
 .toggle .line2 {
   opacity: 0;
 }
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
-  background-color: var(--black);
+  background-color: var(--white);
+  @media screen and (min-width: 768px) {
+    background-color: var(--black);
+  }
 }
