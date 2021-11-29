@@ -28,6 +28,7 @@ darkSwitch.addEventListener("click", () => {
     logoPath.classList.toggle("fill-color");
   });
   darkmodeText.classList.toggle("white-text");
+
 });
 
 // window.addEventListener("scroll", () => {

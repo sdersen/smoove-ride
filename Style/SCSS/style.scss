@@ -107,6 +107,10 @@ body {
       p {
         text-align: center;
         font-size: 0.8;
+        // margin-top: 16px;
+      }
+      .sign-up-btn {
+        margin-bottom: 16px;
       }
     }
     .sign-up-btn:hover {
@@ -128,7 +132,7 @@ body {
 
         .sign-up-btn {
           left: 0px;
-          margin-bottom: 32px;
+          margin-bottom: 24px;
         }
 
         p {
@@ -447,6 +451,8 @@ body {
   }
   p {
     text-align: center;
+    color: var(--white);
+    font-weight: bold;
   }
   .footer-links {
     margin-top: 16px;
@@ -454,13 +460,13 @@ body {
   .footer-svg {
     display: flex;
     justify-content: center;
+    margin-top: 24px;
   }
   svg {
     height: 30px;
     color: var(--white);
     margin-right: 1%;
     margin-left: 1%;
-    margin-top: 2%;
     text-align: center;
   }
   .link-container {
@@ -474,11 +480,13 @@ body {
   .light-link {
     font-weight: lighter;
     font-size: 1rem;
+    margin-bottom: 10px;
   }
   .bold-link {
     font-size: 1rem;
     font-weight: bold;
     padding-bottom: 0.2rem;
+    margin-bottom: 11px;
   }
 
   a {
@@ -496,19 +504,26 @@ body {
 
     p {
       color: var(--white);
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
-    img {
-      height: 20px;
-    }
+
     .company-items {
       text-align: center;
       margin-bottom: 3%;
     }
-    .car-club {
+    .language {
       display: flex;
-      align-items: center;
+      margin-bottom: 70px;
+
+      img {
+        margin-right: 13px;
+        height: 25px;
+      }
     }
+    // .car-club {
+    //   display: flex;
+    //   align-items: center;
+    // }
     @media screen and (min-width: 768px) {
       flex-direction: row;
       justify-content: space-evenly;
@@ -519,6 +534,7 @@ body {
       display: flex;
       justify-content: center;
       justify-content: space-evenly;
+      align-items: flex-start;
     }
   }
 }
