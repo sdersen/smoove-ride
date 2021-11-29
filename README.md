@@ -1,6 +1,6 @@
 # smoove-ride
 
-![smoove](https://raw.githubusercontent.com/sdersen/smoove-ride/main/IMG/Car_IMG/Studio_lightmode_01.webp?token=ATU7Q4WSRF3RLG5ADJF7JELBUTBZA)
+![smoove](https://raw.githubusercontent.com/sdersen/smoove-ride/main/IMG/Car_IMG/studio_lightmode_final.webp?token=ATU7Q4QOWTJM3WDQBK6JR5TBUTRCS)
 
 **Fictive site for Geely (school project).**
 
