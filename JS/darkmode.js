@@ -9,8 +9,7 @@ const burgerDivs = document.querySelectorAll(".burger div");
 const navTags = document.querySelectorAll(".nav-links a");
 const logoPaths = document.querySelectorAll(".logo path");
 const darkmodeText = document.querySelector(".darkmode-text");
-
-// const burgerDiv = document.querySelector('.line1 .line2 .line3 ');
+const titleSection = document.querySelector("#title-section");
 
 darkSwitch.addEventListener("click", () => {
   headline.classList.toggle("white-text");
@@ -30,3 +29,17 @@ darkSwitch.addEventListener("click", () => {
   });
   darkmodeText.classList.toggle("white-text");
 });
+
+// window.addEventListener("scroll", () => {
+//   if (window.scrollY >= titleSection.offsetHeight) {
+//     navTags.forEach((navTag) => {
+//       navTag.style.color = "var(--white)";
+//       console.log(window.scrollY);
+//     });
+//   } else if (window.scrollY <= titleSection.offsetHeight) {
+//     navTags.forEach((navTag) => {
+//       navTag.style.color = "var(--black)";
+//       console.log(window.scrollY);
+//     });
+//   }
+// });
