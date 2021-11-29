@@ -70,14 +70,12 @@ body {
     position: absolute;
     left: 0;
   }
-
   .logo {
     position: absolute;
     top: 38px;
     width: 200px;
     left: 93px;
   }
-
   .title-phrase {
     display: block;
     position: absolute;
@@ -88,7 +86,9 @@ body {
 
     .title {
       margin-bottom: 16px;
-      font-size: 4rem;
+      // font-size: 4rem;
+      font-size: clamp(4rem, 3.6694rem + 1.4692vw, 5rem);
+      line-height: 95%;
       font-family: "Raleway", sans-serif;
       transition: 2s;
     }
@@ -107,7 +107,6 @@ body {
       p {
         text-align: center;
         font-size: 0.8;
-        // margin-top: 16px;
       }
       .sign-up-btn {
         margin-bottom: 16px;
@@ -122,9 +121,9 @@ body {
       top: 222px !important;
       left: 106px !important;
 
-      .title {
-        font-size: 80px !important;
-      }
+      // .title {
+      //   font-size: 5rem !important;
+      // }
 
       .btn-container {
         align-items: flex-start !important;
