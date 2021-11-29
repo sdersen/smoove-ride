@@ -40,7 +40,7 @@ body {
     font-size: 0.8rem;
     position: absolute;
     z-index: 20;
-    top: 8vh;
+    top: 8.5vh;
     left: 2vw;
 
     @media screen and (min-width: 768px) {
@@ -168,9 +168,14 @@ body {
     height: 100vh;
     max-width: 100vw;
     object-fit: cover;
+    object-position: -416px;
     top: 0;
     left: 0;
     display: block;
+
+    @media screen and (min-width: 768px) {
+      object-position: 0px;
+    }
   }
 
   .section-text {
@@ -393,7 +398,7 @@ body {
   @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 
     .member {
       width: 40%;
