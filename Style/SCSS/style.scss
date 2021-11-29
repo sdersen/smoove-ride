@@ -180,7 +180,7 @@ body {
 
   .section-text {
     position: absolute;
-    color: var(--black);
+    color: var(--white);
     top: 2%;
 
     h2 {
@@ -188,6 +188,8 @@ body {
       font-family: "Raleway", sans-serif;
       text-align: center;
       left: 24px;
+      position: absolute;
+      width: 20px;
 
       @media screen and (min-width: 768px) {
         margin-left: 106px;
