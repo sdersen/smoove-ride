@@ -87,14 +87,15 @@ body {
     .title {
       margin-bottom: 16px;
       // font-size: 4rem;
-      font-size: clamp(4rem, 3.6694rem + 1.4692vw, 5rem);
+      font-size: clamp(3.5rem, 3.0000rem + 2.2222vw, 5rem);      
       line-height: 95%;
       font-family: "Raleway", sans-serif;
       transition: 2s;
     }
 
     .phrase {
-      font-size: 1.3rem;
+      // font-size: 1.3rem;
+      font-size: clamp(1rem, 0.9rem + 0.4444vw, 1.3rem);
       font-weight: 400;
     }
 
