@@ -190,7 +190,7 @@ body {
     top: 2%;
 
     h2 {
-      font-size: 4rem;
+      font-size: clamp(3.7rem, 3.6000rem + 0.4444vw, 4rem);
       font-family: "Raleway", sans-serif;
       text-align: center;
       left: 24px;
