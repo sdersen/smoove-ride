@@ -1,6 +1,6 @@
 // NAVBAR KEYFRAMES
 .nav-active {
-  transform: translateX(5%) translateY(0%);
+  transform: translateY(0%);
   @media screen and (min-width: 768px) {
     transform: translateX(0%) translateY(8vh);
   }
