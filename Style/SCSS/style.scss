@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 * {
   margin: 0;
   box-sizing: border-box;
@@ -39,6 +38,7 @@ body {
 
   .darkmode-text {
     font-size: 0.8rem;
+    font-weight: 300;
     position: absolute;
     z-index: 20;
     top: 8.5vh;
@@ -90,6 +90,7 @@ body {
       font-size: clamp(3.5rem, 3rem + 2.2222vw, 5rem);
       line-height: 95%;
       font-family: "Raleway", sans-serif;
+      font-weight: 300;
       transition: 2s;
     }
 
@@ -108,6 +109,7 @@ body {
       p {
         text-align: center;
         font-size: 0.8;
+        font-weight: 300;
       }
       .sign-up-btn {
         margin-bottom: 16px;
