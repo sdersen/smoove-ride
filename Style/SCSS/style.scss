@@ -97,7 +97,7 @@ body {
     .phrase {
       // font-size: 1.3rem;
       font-size: clamp(1rem, 0.9rem + 0.4444vw, 1.3rem);
-      font-weight: 400;
+      font-weight: 300;
     }
 
     .btn-container {
@@ -109,6 +109,9 @@ body {
       p {
         text-align: center;
         font-size: 0.8;
+        font-weight: 300;
+      }
+      a{
         font-weight: 300;
       }
       .sign-up-btn {
@@ -135,6 +138,7 @@ body {
         .sign-up-btn {
           left: 0px;
           margin-bottom: 24px;
+          margin-top: 20px;
         }
 
         p {
@@ -156,8 +160,8 @@ body {
 // BUTTON
 .sign-up-btn {
   display: block;
-  height: 60px;
-  width: 130px;
+  height: 54px;
+  width: 135px;
   padding: 3px;
   text-align: center;
   text-decoration: none;
@@ -415,6 +419,7 @@ body {
         height: 60px;
         width: 130px;
         font-size: 1.2rem;
+        font-weight: 300;
         border: var(--black) solid 1px;
         background: transparent;
         color: var(--black);
