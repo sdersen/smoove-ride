@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 * {
   margin: 0;
   box-sizing: border-box;
@@ -111,7 +111,7 @@ body {
         font-size: 0.8;
         font-weight: 300;
       }
-      a{
+      a {
         font-weight: 300;
       }
       .sign-up-btn {
@@ -268,13 +268,13 @@ body {
   }
 
   .grid-item3 img {
-    height: 400px;
+    height: 320px;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: all 1.2s ease-in-out;
   }
   .grid-item5 img {
-    height: 400px;
+    height: 320px;
     width: 100%;
     object-fit: cover;
     transition: all 1.2s ease-in-out;
