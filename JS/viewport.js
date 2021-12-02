@@ -1,7 +1,7 @@
 const gridItem1 = document.querySelector(".desktop-grid-item1");
 const gridItem2 = document.querySelector(".desktop-grid-item2");
 
-// TOGGLE HIDDEN CLASS ON OBJECTS
+// TOGGLE HIDDEN CLASS ON OBJECTS IN TECH
 window.addEventListener("scroll", function (event) {
   if (isInViewPort(gridItem1) || isInViewPort(gridItem2)) {
     gridItem1.classList.remove("hidden-scroll");
