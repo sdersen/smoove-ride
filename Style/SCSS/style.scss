@@ -450,6 +450,10 @@ body {
     .watch img {
       height: 100%;
       object-fit: contain;
+      transition: all 1.2s ease-in-out;
+    }
+    .watch img:hover {
+      transform: scale(1.1);
     }
   }
 }
