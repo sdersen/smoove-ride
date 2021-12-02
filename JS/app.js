@@ -37,3 +37,13 @@ const navSlide = () => {
 };
 
 navSlide();
+
+//CLEAR INPUT FIELD AFTER SIGN UP
+const signUp = document.querySelector(".newsletter-container input");
+const newsAlert = document.querySelector(".news-alert");
+let signUpButton = document.querySelector(".sign-up");
+
+signUpButton.addEventListener("click", () => {
+  signUp.value = "";
+  newsAlert.classList.toggle("hidden");
+});
